@@ -9,8 +9,8 @@ header .navbar .navbar-brand {
     font-family: 'Times New Roman', Times, serif ;
     font-size: 35px;
     letter-spacing: 8px;
-    padding-top: 7px;
-    padding-left: 30px;
+    padding-top: 8px;
+    padding-left: 32px;
 }
 
 header .navbar .navbar-brand:hover{
@@ -61,12 +61,11 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 @media screen and (max-width: 1024px) {
     header {
         background-color: #000;
-        padding: 0;
         height: 80px;
     }
-
+    
     header .navbar{
-      top: 10%;
+        height: 80px;
     }
 
     header .navbar .navbar-brand {
@@ -74,8 +73,8 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         font-family: 'Times New Roman', Times, serif;
         font-size: 32px;
         letter-spacing: 10px;
-        padding-top: 0;
-        padding-bottom: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
     
     header .navbar .navbar-collapse .navbar-nav .nav-item {
@@ -84,7 +83,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         font-family: Verdana;
         font-size: 12px;
         padding: 15px 20px;
-      } 
+    } 
 
     header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
       color: #fff;
@@ -111,7 +110,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 
     header .navbar .hamburger-down {
       position: absolute;
-      top: 90%;
+      top: 100%;
       width: 100%;
       left: 0;
     }
@@ -121,40 +120,40 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         width: 16px;
         height: 60px;
         right: 24px;
-        top: 0;
+        top: 8px;
         padding: 0;
-      }
+    }
 
-      header .navbar .menu-trigger span {
+    header .navbar .menu-trigger span {
         position: absolute;
         background-color: #fff;
         left: 0;
         width: 100%;
         height: 4px;
         border-radius: 3px; 
-      }
+    }
 
-      header .navbar .menu-trigger span:nth-of-type(1) {
+    header .navbar .menu-trigger span:nth-of-type(1) {
         top: 25px;
         width: 15px;
         height: 2px;
-      }
+    }
 
-      header .navbar .menu-trigger span:nth-of-type(2) {
+    header .navbar .menu-trigger span:nth-of-type(2) {
         top: 30px;
         width: 15px;
         height: 2px;
-      }
+    }
 
-      header .navbar .menu-trigger span:nth-of-type(3) {
+    header .navbar .menu-trigger span:nth-of-type(3) {
         top: 35px;
         width: 15px;
         height: 2px;
-      }
+    }
 
-      button:focus {
-        outline:0;
-      }
+    button:focus {
+        outline: 0;
+    }
 
   }   
  
