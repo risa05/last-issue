@@ -164,6 +164,10 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     background-color: #000;
 }
 
+#top .top-image img{
+    width: 100%;
+}
+
 #top .top-image p{
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
