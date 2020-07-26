@@ -2,6 +2,8 @@
 header {
     background-color: rgba(0,0,0,0.5);
     height: 80px;
+    position: absolute;
+    width: 100%;
 }
 
 header .navbar .navbar-brand {
@@ -164,18 +166,31 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     background-color: #000;
 }
 
-#top .top-image img{
+#top .top-image{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/16/21/45/coffee-2319107_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
     width: 100%;
 }
 
 #top .top-image p{
-    color: #fff;
+    margin: 0;
+    padding: 0;
+    color:　#000;
+    font-size: 36px;
     font-family: 'Times New Roman', Times, serif;
     writing-mode: vertical-rl;
 }
 
 #top .top-text {
     color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 #top .top-text h1{
@@ -184,26 +199,42 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 
 #top .top-text p{
     font-family: Verdana;
+    margin: 0;
 }
 /* パソコン用top */
 
 /* モバイル用top */
-#top {
-    background-color: #000;
-}
-#top .top-image p{
-    color: #fff;
-}
+@media screen and (max-width: 1024px) {
+    #top {
+        background-color: #000;
+    }
 
-#top .top-text {
-    color: #fff;
-}
+    #top .top-image{
+        background-size: cover;
+        background-position: right;
+        height: 400px;
+    }
+    
+    #top .top-image p{
+        color: #000;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
 
-#top .top-text h1{
+    #top .top-text {
+        color: #fff;
+       margin-right: 20px;
+       margin-left: 20px;
+    }
 
-}
+    #top .top-text h1{
+        font-size: 20px;
+    }
 
-#top .top-text p{
-
+    #top .top-text p{
+        font-size: 14px;
+        margin: 0;
+    }
 }
 /* モバイル用top*/
