@@ -70,7 +70,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 640px;
+    height: 96vh;
     width: 100%;
 }
 
@@ -87,8 +87,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     color: #fff;
     background-color: #000;
     text-align: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding: 48px 16px;
 }
 
 #top .top-text h1 {
