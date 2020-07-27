@@ -198,10 +198,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         outline: 0;
     }
 
-    #top {
-        background-color: #000;
-    }
-
     #top .top-image {
         background-size: cover;
         background-position: right;
@@ -209,14 +205,10 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     }
     
     #top .top-image p {
-        color: #000;
         font-size: 20px;
-        margin: 0;
-        padding: 0;
     }
 
     #top .top-text {
-        color: #fff;
         margin-right: 20px;
         margin-left: 20px;
     }
@@ -227,7 +219,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 
     #top .top-text p {
         font-size: 14px;
-        margin: 0;
     }
 
   }
