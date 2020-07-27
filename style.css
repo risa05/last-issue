@@ -65,7 +65,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 
 #top .top-image {
-    background-image: url(https://cdn.pixabay.com/photo/2017/05/16/21/45/coffee-2319107_1280.jpg);
+    background-image: url("./top-image.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
