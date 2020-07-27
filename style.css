@@ -166,7 +166,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     background-color: #000;
 }
 
-#top .top-image{
+#top .top-image {
     background-image: url(https://cdn.pixabay.com/photo/2017/05/16/21/45/coffee-2319107_1280.jpg);
     background-size: cover;
     display: flex;
@@ -176,7 +176,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     width: 100%;
 }
 
-#top .top-image p{
+#top .top-image p {
     margin: 0;
     padding: 0;
     color:　#000;
@@ -193,11 +193,11 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     padding-bottom: 48px;
 }
 
-#top .top-text h1{
+#top .top-text h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#top .top-text p{
+#top .top-text p {
     font-family: Verdana;
     margin: 0;
 }
@@ -209,13 +209,13 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         background-color: #000;
     }
 
-    #top .top-image{
+    #top .top-image {
         background-size: cover;
         background-position: right;
         height: 400px;
     }
     
-    #top .top-image p{
+    #top .top-image p {
         color: #000;
         font-size: 20px;
         margin: 0;
@@ -224,15 +224,15 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 
     #top .top-text {
         color: #fff;
-       margin-right: 20px;
-       margin-left: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    #top .top-text h1{
+    #top .top-text h1 {
         font-size: 20px;
     }
 
-    #top .top-text p{
+    #top .top-text p {
         font-size: 14px;
         margin: 0;
     }
