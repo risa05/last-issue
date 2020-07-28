@@ -2,6 +2,8 @@
 header {
     background-color: rgba(0,0,0,0.5);
     height: 80px;
+    position: absolute;
+    width: 100%;
 }
 
 header .navbar .navbar-brand {
@@ -57,7 +59,48 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 /* パソコン用header */
 
-/* モバイル用header */
+/* パソコン用top */
+#top {
+    background-color: #000;
+}
+
+#top .top-image {
+    background-image: url("./top-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    width: 100%;
+}
+
+#top .top-image p {
+    margin: 0;
+    padding: 0;
+    color:　#000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    writing-mode: vertical-rl;
+}
+
+#top .top-text {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 48px 16px;
+}
+
+#top .top-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#top .top-text p {
+    font-family: Verdana;
+    margin: 0;
+}
+/* パソコン用top */
+
+/* モバイル用 */
 @media screen and (max-width: 1024px) {
     header {
         background-color: #000;
@@ -155,6 +198,29 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         outline: 0;
     }
 
-  }   
- 
-/* モバイル用header */
+    #top .top-image {
+        background-size: cover;
+        background-position: right;
+        height: 400px;
+    }
+    
+    #top .top-image p {
+        font-size: 20px;
+    }
+
+    #top .top-text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #top .top-text h1 {
+        font-size: 20px;
+    }
+
+    #top .top-text p {
+        font-size: 14px;
+    }
+
+  }
+  
+/* モバイル用 */
