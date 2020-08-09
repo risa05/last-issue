@@ -65,7 +65,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 
 #top .top-image {
-    background-image: url("./top-image.jpg");
+    background-image: url("./images/top-image.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
