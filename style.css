@@ -257,6 +257,14 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         padding: 32px 20px;
     }
 
+    #explanation .ex-text {
+        padding: 40px 24px;
+    }
+
+    #explanation .ex-text h1 {
+        font-size: 20px;
+    }
+
   }
   
 /* モバイル用 */
