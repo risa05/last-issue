@@ -60,6 +60,16 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 /* パソコン用header */
 
 /* パソコン用main */
+main h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+main p {
+    font-family: Verdana;
+    margin: 0;
+}
+
 #top {
     background-color: #000;
 }
@@ -75,7 +85,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 
 #top .top-image p {
-    margin: 0;
     padding: 0;
     color:　#000;
     font-size: 36px;
@@ -90,13 +99,8 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     padding: 48px 16px;
 }
 
-#top .top-text h1 {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 #top .top-text p {
-    font-family: Verdana;
-    margin: 0;
+    text-align: center;
 }
 
 #explanation {
@@ -117,7 +121,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 #explanation .ex-text h1 {
     color: #442606;
     font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
 }
 
@@ -125,7 +128,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     color: #000;
     font-size: 14px;
     line-height: 32px;
-    margin-bottom: 0;
+    text-align: center;
 }
 
 /* パソコン用main */
