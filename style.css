@@ -59,13 +59,29 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 /* パソコン用header */
 
-/* パソコン用top */
+/* パソコン用main */
+main .section-details {
+    text-align: center;
+}
+
+main .section-details h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+main .section-details p {
+    font-family: Verdana;
+    margin: 0;
+    font-size: 14px;
+    line-height: 32px;
+}
+
 #top {
     background-color: #000;
 }
 
 #top .top-image {
-    background-image: url("./top-image.jpg");
+    background-image: url("./images/top-image.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -75,7 +91,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 }
 
 #top .top-image p {
-    margin: 0;
     padding: 0;
     color:　#000;
     font-size: 36px;
@@ -83,22 +98,36 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
     writing-mode: vertical-rl;
 }
 
-#top .top-text {
+#top .section-details {
     color: #fff;
     background-color: #000;
-    text-align: center;
     padding: 48px 16px;
 }
 
-#top .top-text h1 {
-    font-family: 'Times New Roman', Times, serif;
+#explanation {
+    padding-top: 100px;
 }
 
-#top .top-text p {
-    font-family: Verdana;
-    margin: 0;
+#explanation img {
+    width: 100%;
+    height: 100%;
 }
-/* パソコン用top */
+
+#explanation .section-details {
+    background-color: #f5f5f5;
+    padding: 48px 20px 48px;
+}
+
+#explanation .section-details h1 {
+    color: #442606;
+    margin-bottom: 10px;
+}
+
+#explanation .section-details p {
+    color: #000;
+}
+
+/* パソコン用main */
 
 /* モバイル用 */
 @media screen and (max-width: 1024px) {
@@ -198,6 +227,10 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         outline: 0;
     }
 
+    main .section-details h1 {
+        font-size: 20px;
+    }
+    
     #top .top-image {
         background-size: cover;
         background-position: right;
@@ -208,19 +241,19 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
         font-size: 20px;
     }
 
-    #top .top-text {
+    #top .section-details {
         margin-right: 20px;
         margin-left: 20px;
     }
 
-    #top .top-text h1 {
-        font-size: 20px;
+    #explanation {
+        padding: 32px 20px;
     }
 
-    #top .top-text p {
-        font-size: 14px;
+    #explanation .section-details {
+        padding: 40px 24px;
     }
-
+   
   }
   
 /* モバイル用 */
