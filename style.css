@@ -321,10 +321,6 @@ main .section-details p {
     #cards .card-body {
         padding-bottom: 24px;
     }
-    
-    #cards .card-body button {
-        padding: 0;
-    }
    
   }
 
