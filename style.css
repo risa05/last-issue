@@ -185,6 +185,7 @@ main .section-details p {
 
 #cards .card-body button:hover {
     background-color: #442602;
+    transition: 1.0s;
 }
 
 #cards .card-body button:focus {
