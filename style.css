@@ -325,13 +325,13 @@ main .section-details p {
    
   }
 
-  @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
     #cards .card-body button {
-          width: 160px;
-      }
+        width: 160px;
+    }
   }
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #cards .card-body button {
         font-size: 12px;
         height: 40px;
@@ -340,7 +340,7 @@ main .section-details p {
     }
   }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #cards .card {
         padding-top: 20px;
     }
