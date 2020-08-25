@@ -133,9 +133,7 @@ main .section-details p {
     font-weight: bold;
     font-size: 20px;
     font-style: Verdana;
-    position: relative;
-    height: 0;
-    width: 0;
+    position: absolute;
     margin: 0;
     white-space: nowrap;
     z-index: 1;
@@ -322,6 +320,7 @@ main .section-details p {
     #cards .card-body {
         padding-bottom: 24px;
     }
+    
    
   }
 
