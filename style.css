@@ -178,7 +178,7 @@ main .section-details p {
     text-align: center;
     padding: 8px 24px;
     width: 220px;
-    margin: 0 40px;
+    margin: 0 auto;
 }
 
 #cards .card-body button:hover {
@@ -335,7 +335,7 @@ main .section-details p {
         font-size: 12px;
         height: 40px;
         width: 120px;
-        margin: 0 20px;
+        margin: 0 auto;
     }
   }
 
@@ -346,13 +346,13 @@ main .section-details p {
     
     #cards .card-body button {
         width: 180px;
-        margin: 0 140px;
+        margin: 0 auto;
     }
   }
 
 @media screen and (max-width: 576px) {
     #cards .card-body button{
-        margin: 0 90px;
+        margin: 0 auto;
     }
 }
   
