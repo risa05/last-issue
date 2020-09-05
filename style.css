@@ -135,7 +135,6 @@ main .section-details p {
     font-style: Verdana;
     position: absolute;
     margin: 0;
-    white-space: nowrap;
     z-index: 1;
 }
 
