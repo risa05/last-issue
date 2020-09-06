@@ -321,14 +321,13 @@ main .section-details p {
         padding-bottom: 24px;
     }
     
-   
-  }
+}
 
 @media screen and (max-width: 1200px){
     #cards .card-body button {
         width: 160px;
     }
-  }
+}
 
 @media screen and (max-width: 992px) {
     #cards .card-body button {
@@ -337,7 +336,7 @@ main .section-details p {
         width: 120px;
         margin: 0 auto;
     }
-  }
+}
 
 @media screen and (max-width: 768px) {
     #cards .card {
@@ -348,12 +347,12 @@ main .section-details p {
         width: 180px;
         margin: 0 auto;
     }
-  }
+}
 
 @media screen and (max-width: 576px) {
     #cards .card-body button{
         margin: 0 auto;
     }
 }
-  
+
 /* モバイル用 */
