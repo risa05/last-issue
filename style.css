@@ -178,8 +178,7 @@ main .section-details p {
     padding: 8px 24px;
     width: 160px;
     margin: 0 auto;
-    transition: 1.0s;
-    transition-property: background-color;
+    transition: background-color 1.0s;
 }
 
 #cards .card-body button:hover {
