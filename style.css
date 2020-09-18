@@ -244,6 +244,12 @@ main .section-details p {
     font-size: 16px;
     margin-bottom: 0;
     transition: color 0.2s;
+
+}
+#news-event .list-group .news-text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #news-event .list-group p:hover {
@@ -252,7 +258,6 @@ main .section-details p {
 
 #news-event .list-group small {
     color: #999;
-    margin-bottom: 10px;
 }
 
 #news-event .list-group small:hover {
