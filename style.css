@@ -276,6 +276,11 @@ main .section-details p {
     height: 14px;
     width: 14px;
     text-decoration: none;
+    transition: color 0.5s;
+}
+
+#news-event .link a:hover {
+    color: #999;
 }
 
 #news-event .link a::after {
