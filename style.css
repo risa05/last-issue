@@ -206,6 +206,7 @@ main .section-details p {
 #news-event .news-event-title h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
