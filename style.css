@@ -222,7 +222,7 @@ main .section-details p {
     text-decoration: none;
 }
 
-#news-event .list-group .img-wrap{
+#news-event .list-group .img-wrap {
     height: 142px;
     overflow: hidden;
 }
@@ -277,7 +277,7 @@ main .section-details p {
     padding: 16px 0;
 }
 
-#news-event .link a{
+#news-event .link a {
     color: #000;
     height: 14px;
     width: 14px;
