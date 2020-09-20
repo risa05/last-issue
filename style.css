@@ -235,7 +235,7 @@ main .section-details p {
     transition: 0.5s;
 }
 
-#news-event .list-group img:hover {
+#news-event .event:hover > .img-wrap > img {
     width: 100%;
     transform: scale(1.2);
 }
