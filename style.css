@@ -62,6 +62,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 /* パソコン用main */
 main .section-details {
     text-align: center;
+    padding: 48px 20px 48px;
 }
 
 main .section-details h1 {
@@ -74,6 +75,10 @@ main .section-details p {
     margin: 0;
     font-size: 14px;
     line-height: 32px;
+}
+
+#top, #explanation, #cards, #news-event {
+    margin: 0 0 100px;
 }
 
 #top {
@@ -101,11 +106,6 @@ main .section-details p {
 #top .section-details {
     color: #fff;
     background-color: #000;
-    padding: 48px 16px;
-}
-
-#explanation {
-    padding-top: 100px;
 }
 
 #explanation img {
@@ -115,7 +115,6 @@ main .section-details p {
 
 #explanation .section-details {
     background-color: #f5f5f5;
-    padding: 48px 20px 48px;
 }
 
 #explanation .section-details h1 {
@@ -124,7 +123,6 @@ main .section-details p {
 }
 
 #cards {
-    margin-top: 96px;
     width: 100%;
 }
 
@@ -195,7 +193,6 @@ main .section-details p {
 
 #news-event {
     background-color: #f5f5f5;
-    margin: 56px 0 0;
     padding: 56px 0 60px;
 }
 
