@@ -266,10 +266,6 @@ main .section-details p {
     color: #999;
 }
 
-#news-event .list-group .event {
-    display: flex;
-}
-
 #news-event .list-group .event-text {
     margin: auto;
 }
