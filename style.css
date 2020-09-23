@@ -445,6 +445,13 @@ main .section-details p {
     #cards .card-body button {
         width: 180px;
     }
+
+    #news-event .list-group .event-text {
+        width: 510px;
+        padding: 18px;
+        margin: 0;
+        display: table;
+    }
 }
 
 /* モバイル用 */
