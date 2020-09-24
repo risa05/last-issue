@@ -256,11 +256,12 @@ main .section-details p {
     color: #442602;
 }
 
-#news-event .list-group small {
+#news-event .list-group time {
     color: #999;
+    font-size: 12px;
 }
 
-#news-event .list-group small:hover {
+#news-event .list-group time:hover {
     color: #999;
 }
 
