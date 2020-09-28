@@ -518,8 +518,8 @@ main .section-details p {
         display: table;
     }
 
-    #plan .list-group {
-        margin-bottom: 40px;
+    #plan .day-time-plan, .premium-plan {
+        padding: 0;
     }
 }
 
