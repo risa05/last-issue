@@ -305,7 +305,7 @@ main .section-details p {
     margin-bottom: 40px;
 }
 
-#plan .standard-plan ul{
+#plan .standard-plan ul {
     border: 5px solid #442502;
     border-top: none;
 }
@@ -329,7 +329,7 @@ main .section-details p {
     border: 0;
 }
 
-#plan .standard-plan li:nth-child(1){
+#plan .standard-plan li:nth-child(1) {
     background-color: #442602;
 }
 
