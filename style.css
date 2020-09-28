@@ -77,7 +77,7 @@ main .section-details p {
     line-height: 32px;
 }
 
-#top, #explanation, #cards, #news-event {
+#top, #explanation, #cards, #news-event, #plan {
     margin: 0 0 100px;
 }
 
@@ -170,7 +170,7 @@ main .section-details p {
 }
 
 
-#cards .card-body button {
+#cards .card-body button, #plan button {
     border: none;
     background-color: #000;
     color: #fff;
@@ -183,11 +183,11 @@ main .section-details p {
     transition: background-color 1.0s;
 }
 
-#cards .card-body button:hover {
+#cards .card-body button:hover, #plan button:hover {
     background-color: #442602;
 }
 
-#cards .card-body button:focus {
+#cards .card-body button:focus, #plan button:focus {
     outline: 0;
 }
 
@@ -292,6 +292,70 @@ main .section-details p {
     margin-left: 12px;
     content: "\03e";
 } 
+
+#plan .section-details {
+    padding-top: 0;
+}
+
+#plan .section-details h1 {
+    color: #442606;
+}
+
+#plan .container {
+    margin-bottom: 40px;
+}
+
+#plan .standard-plan ul{
+    border: 5px solid #442502;
+    border-top: none;
+}
+
+#plan li {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+    padding: 20px 8px;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+#plan li:nth-child(1) {
+    color: #fff;
+    background-color: #a19283;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+}
+
+#plan .standard-plan li:nth-child(1){
+    background-color: #442602;
+}
+
+#plan li:nth-child(2) {
+    background-color: #ece9e6;
+    color: #442602;
+    padding: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#plan li:nth-child(2)::before {
+    content: "\0a5";
+    font-size: 20px;
+}
+
+#plan li:nth-child(2) span {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#plan .day-time-plan li:nth-child(6), .premium-plan li:nth-child(6) {
+    padding:22px 8px
+}
 /* パソコン用main */
 
 /* モバイル用 */
@@ -452,6 +516,10 @@ main .section-details p {
         padding: 18px;
         margin: 0;
         display: table;
+    }
+
+    #plan .list-group {
+        margin-bottom: 40px;
     }
 }
 
