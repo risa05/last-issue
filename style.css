@@ -60,17 +60,17 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
 /* パソコン用header */
 
 /* パソコン用main */
-main .section-details {
+main .details {
     text-align: center;
     padding: 48px 20px 48px;
 }
 
-main .section-details h1 {
+main .details h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
 }
 
-main .section-details p {
+main .details p {
     font-family: Verdana;
     margin: 0;
     font-size: 14px;
@@ -103,7 +103,7 @@ main .section-details p {
     writing-mode: vertical-rl;
 }
 
-#top .section-details {
+#top .details {
     color: #fff;
     background-color: #000;
 }
@@ -113,11 +113,11 @@ main .section-details p {
     height: 100%;
 }
 
-#explanation .section-details {
+#explanation .details {
     background-color: #f5f5f5;
 }
 
-#explanation .section-details h1 {
+#explanation .details h1 {
     color: #442606;
     margin-bottom: 10px;
 }
@@ -293,7 +293,7 @@ main .section-details p {
     content: "\03e";
 } 
 
-#plan .section-details h1 {
+#plan .details h1 {
     color: #442606;
 }
 
@@ -301,7 +301,7 @@ main .section-details p {
     margin-bottom: 40px;
 }
 
-#plan .standard-plan ul {
+#plan .plan-details:nth-child(2) ul {
     border: 5px solid #442502;
 }
 
@@ -324,7 +324,7 @@ main .section-details p {
     border: none;
 }
 
-#plan .standard-plan li:nth-child(1) {
+#plan .plan-details:nth-child(2) li:nth-child(1) {
     background-color: #442602;
 }
 
@@ -346,10 +346,6 @@ main .section-details p {
     color: #000;
     font-weight: 400;
     font-size: 14px;
-}
-
-#plan .day-time-plan li:last-child, .premium-plan li:last-child {
-    padding:22px 8px
 }
 /* パソコン用main */
 
@@ -451,7 +447,7 @@ main .section-details p {
         outline: 0;
     }
 
-    main .section-details h1 {
+    main .details h1 {
         font-size: 20px;
     }
     
@@ -465,7 +461,7 @@ main .section-details p {
         font-size: 20px;
     }
 
-    #top .section-details {
+    #top .details {
         margin-right: 20px;
         margin-left: 20px;
     }
@@ -474,7 +470,7 @@ main .section-details p {
         padding: 32px 20px;
     }
 
-    #explanation .section-details {
+    #explanation .details {
         padding: 40px 24px;
     }
 
