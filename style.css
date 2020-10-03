@@ -302,7 +302,7 @@ main .details p {
 }
 
 #plan .plan-details:nth-child(2) ul {
-    border: 5px solid #442502;
+    border: 4px solid #442502;
 }
 
 #plan li {
@@ -326,6 +326,7 @@ main .details p {
 
 #plan .plan-details:nth-child(2) li:nth-child(1) {
     background-color: #442602;
+    padding-top: 16px;
 }
 
 #plan li:nth-child(2) {
@@ -346,6 +347,10 @@ main .details p {
     color: #000;
     font-weight: 400;
     font-size: 14px;
+}
+
+#plan .plan-details:nth-child(2n+1) li:last-child{
+    padding: 22px 8px;
 }
 /* パソコン用main */
 
