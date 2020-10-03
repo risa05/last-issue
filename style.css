@@ -349,7 +349,7 @@ main .details p {
     font-size: 14px;
 }
 
-#plan .plan-details:nth-child(2n+1) li:last-child{
+#plan .plan-details:nth-child(2n+1) li:last-child {
     padding: 22px 8px;
 }
 /* パソコン用main */
