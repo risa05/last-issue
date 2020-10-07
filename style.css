@@ -312,7 +312,7 @@ main .details p {
     list-style: none;
     padding: 20px 8px;
     border: 1px solid #ddd;
-    border-top: transparent;
+    border-top-width: 0;
 }
 
 #plan li:nth-child(1) {
