@@ -188,7 +188,7 @@ main .details p {
 }
 
 #cards .card-body button:focus, #plan button:focus {
-    outline: 0;
+    outline: none;
 }
 
 #news-event {
