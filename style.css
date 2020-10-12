@@ -181,6 +181,8 @@ main .details p {
     width: 160px;
     margin: 0 auto;
     transition: background-color 1.0s;
+    font-family: Verdana;
+    font-size: 14px;
 }
 
 #cards .card-body button:hover, #plan button:hover {
