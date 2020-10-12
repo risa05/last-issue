@@ -515,6 +515,28 @@ main .details p {
         margin: 0;
         display: table;
     }
+
+    #plan .plan-details:nth-child(2) {
+        padding-top: 16px;
+    }
+
+    #plan li {
+        padding: 12px 8px;
+    }
+
+    #plan li:nth-child(1) {
+        font-size: 16px;
+        padding-top: 16px;
+    }
+
+    #plan li:nth-child(2) {
+        font-size: 36px;
+        line-height: 20px;
+    }
+
+    #plan .plan-details:nth-child(2n+1) li:last-child {
+        padding: 12px 8px;
+    }
 }
 
 /* モバイル用 */
