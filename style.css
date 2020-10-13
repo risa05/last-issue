@@ -1,0 +1,458 @@
+/* パソコン用header */
+header {
+    background-color: rgba(0,0,0,0.5);
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+
+header .navbar .navbar-brand {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 35px;
+    letter-spacing: 8px;
+    padding-top: 8px;
+    padding-left: 32px;
+}
+
+header .navbar .navbar-brand:hover{
+  color: #fff;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item {
+  padding: 0 10px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+  
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #999;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu{
+    background-color: #000;
+    border-radius: 0;
+    padding: 0px;
+    top: 56px;
+}    
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu:hover{
+    color: #fff;
+    background-color: #442606;
+}
+
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item{
+    color:#fff;
+    background-color: #000;
+    font-family: Verdana;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}    
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover {
+    color: #fff;
+    background-color: #442606;
+}
+/* パソコン用header */
+
+/* パソコン用main */
+main .section-details {
+    text-align: center;
+    padding: 48px 20px 48px;
+}
+
+main .section-details h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+main .section-details p {
+    font-family: Verdana;
+    margin: 0;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+#top, #explanation, #cards, #news-event {
+    margin: 0 0 100px;
+}
+
+#top {
+    background-color: #000;
+}
+
+#top .top-image {
+    background-image: url("./images/top-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    width: 100%;
+}
+
+#top .top-image p {
+    padding: 0;
+    color:　#000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    writing-mode: vertical-rl;
+}
+
+#top .section-details {
+    color: #fff;
+    background-color: #000;
+}
+
+#explanation img {
+    width: 100%;
+    height: 100%;
+}
+
+#explanation .section-details {
+    background-color: #f5f5f5;
+}
+
+#explanation .section-details h1 {
+    color: #442606;
+    margin-bottom: 10px;
+}
+
+#cards {
+    width: 100%;
+}
+
+#cards .card {
+    z-index: 0;
+}
+
+#cards .card-title {
+    color: #442602;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: Verdana;
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+}
+
+#cards .card-title::before {
+    content: "";
+    border-color: #fff transparent transparent transparent;
+    border-style: solid;
+    border-width: 150px 150px 0 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: -1;    
+}
+
+#cards img {
+    width: 100%;
+}
+
+#cards .card-body {
+    background-color: #f5f5f5;
+    font-size: 14px;
+    padding: 30px 24px 40px;
+}
+
+#cards .card-body .card-text {
+    color: #000;
+    font-style: Verdana;
+    margin: 0;
+    line-height: 2.4;
+    padding-bottom: 24px;
+}
+
+
+#cards .card-body button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    padding: 8px 24px;
+    width: 160px;
+    margin: 0 auto;
+    transition: background-color 1.0s;
+}
+
+#cards .card-body button:hover {
+    background-color: #442602;
+}
+
+#cards .card-body button:focus {
+    outline: 0;
+}
+
+#news-event {
+    background-color: #f5f5f5;
+    padding: 56px 0 60px;
+}
+
+#news-event .news-event-titile {
+    color: #000;
+}
+
+#news-event .news-event-title h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#news-event .news-event-title span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+#news-event .list-group .list-group-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:  18px;
+    text-decoration: none;
+}
+
+#news-event .list-group .img-wrap {
+    height: 142px;
+    overflow: hidden;
+}
+
+#news-event .list-group img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+
+#news-event .event:hover > .img-wrap > img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+#news-event .list-group p {
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    transition: color 0.2s;
+}
+
+#news-event .list-group .news-text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 1px;
+}
+
+#news-event .list-group p:hover {
+    color: #442602;
+}
+
+#news-event .list-group time {
+    color: #999;
+    font-size: 12px;
+}
+
+#news-event .list-group time:hover {
+    color: #999;
+}
+
+#news-event .list-group .event-text {
+    margin: auto;
+}
+
+#news-event .link {
+    text-align: right;
+    padding: 16px 0;
+}
+
+#news-event .link a {
+    color: #000;
+    height: 14px;
+    width: 14px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#news-event .link a:hover {
+    color: #999;
+}
+
+#news-event .link a::after {
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+    content: "\03e";
+} 
+/* パソコン用main */
+
+/* モバイル用 */
+@media screen and (max-width: 1024px) {
+    header {
+        background-color: #000;
+        height: 80px;
+    }
+    
+    header .navbar{
+        height: 80px;
+    }
+
+    header .navbar .navbar-brand {
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 32px;
+        letter-spacing: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    header .navbar .navbar-collapse .navbar-nav .nav-item {
+        color: #fff;
+        background-color: #000;
+        font-family: Verdana;
+        font-size: 12px;
+        padding: 15px 20px;
+    } 
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+      color: #fff;
+    }  
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu{
+      background-color: #000;
+      border-radius: 0;
+      margin-top: 0;
+    }
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu:hover{
+      background-color: #000;
+    }
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item{
+      font-size: 12px;
+    }
+
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item:hover{
+      background-color: #000;
+    }
+
+    header .navbar .hamburger-down {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      left: 0;
+    }
+
+    header .navbar .menu-trigger {
+        position: absolute;
+        width: 16px;
+        height: 60px;
+        right: 24px;
+        top: 8px;
+        padding: 0;
+    }
+
+    header .navbar .menu-trigger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 3px; 
+    }
+
+    header .navbar .menu-trigger span:nth-of-type(1) {
+        top: 25px;
+        width: 15px;
+        height: 2px;
+    }
+
+    header .navbar .menu-trigger span:nth-of-type(2) {
+        top: 30px;
+        width: 15px;
+        height: 2px;
+    }
+
+    header .navbar .menu-trigger span:nth-of-type(3) {
+        top: 35px;
+        width: 15px;
+        height: 2px;
+    }
+
+    button:focus {
+        outline: 0;
+    }
+
+    main .section-details h1 {
+        font-size: 20px;
+    }
+    
+    #top .top-image {
+        background-size: cover;
+        background-position: right;
+        height: 400px;
+    }
+    
+    #top .top-image p {
+        font-size: 20px;
+    }
+
+    #top .section-details {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #explanation {
+        padding: 32px 20px;
+    }
+
+    #explanation .section-details {
+        padding: 40px 24px;
+    }
+
+    #cards .card-body {
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #cards .card-body button {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #cards .card-body button {
+        font-size: 12px;
+        height: 40px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #cards .card {
+        padding-top: 20px;
+    }
+    
+    #cards .card-body button {
+        width: 180px;
+    }
+
+    #news-event .list-group .event-text {
+        width: 510px;
+        padding: 18px;
+        margin: 0;
+        display: table;
+    }
+}
+
+/* モバイル用 */
