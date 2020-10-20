@@ -354,6 +354,10 @@ main .details p {
 #plan .plan-details:nth-child(2n+1) li:last-child {
     padding: 22px 8px;
 }
+
+#cafe-coworking {
+    background-image: url("./images/cafe-coworking-back.jpg")
+}
 /* パソコン用main */
 
 /* モバイル用 */
