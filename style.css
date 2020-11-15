@@ -77,7 +77,7 @@ main .details p {
     line-height: 32px;
 }
 
-#top, #explanation, #cards, #news-event, #plan {
+#top, #explanation, #cards, #news-event, #plan, #cafe-coworking {
     margin: 0 0 100px;
 }
 
@@ -235,7 +235,7 @@ main .details p {
     transition: 0.5s;
 }
 
-#news-event .event:hover > .img-wrap > img {
+#news-event .event:hover > .img-wrap > img, #cafe-coworking .bookcafe:hover > img, #cafe-coworking .coworking:hover > img{
     width: 100%;
     transform: scale(1.2);
 }
@@ -356,7 +356,64 @@ main .details p {
 }
 
 #cafe-coworking {
-    background-image: url("./images/cafe-coworking-back.jpg")
+    background-image: url("./images/cafe-coworking-back.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#cafe-coworking .details h1, #cafe-coworking .details p {
+    color: #fff;
+}
+
+#cafe-coworking .details {
+    padding: 20px;
+}
+
+#cafe-coworking .details p {
+    padding: 20px 0;
+}
+
+#cafe-coworking img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#cafe-coworking .bookcafe, #cafe-coworking .coworking {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+#cafe-coworking .bookcafe span, #cafe-coworking .coworking span {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 160px;
+    color: #442602;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 120px;
+}
+
+#cafe-coworking .bookcafe span::before, .coworking span::before {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    width: 0;
+    height: 0;
+    border-width: 120px 60px 0 60px;
+    border-style: solid;
+    border-color: transparent #fff #fff transparent;
+    content: "";
 }
 /* パソコン用main */
 
@@ -541,6 +598,13 @@ main .details p {
     #plan .plan-details:nth-child(2n+1) li:last-child {
         padding: 12px 8px;
     }
-}
 
+    #cafe-coworking {
+        height: 90vh;
+    }
+
+    #cafe-coworking .bookcafe:hover > img, #cafe-coworking .coworking:hover > img {
+        transform: none;
+    }
+}
 /* モバイル用 */
