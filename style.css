@@ -600,7 +600,9 @@ main .details p {
     }
 
     #cafe-coworking {
-        height: 90vh;
+        background-size: cover;
+        background-position: right;
+        height: 100vh;
     }
 
     #cafe-coworking .bookcafe:hover > img, #cafe-coworking .coworking:hover > img {
