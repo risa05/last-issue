@@ -440,12 +440,17 @@ footer .info {
   padding: 40px 0;
 }
 
-footer .info img {
+footer .logo {
+  display: block;
   width: 200px;
-  margin: 20px;
+  margin: auto;
 }
 
-footer .info .info-det {
+footer .info img {
+  width: 100%;
+}
+
+footer .info .info-details {
   margin: 20px;
   line-height: 2;
 }
