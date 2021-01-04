@@ -470,6 +470,7 @@ footer .sns-icon .snsbtn:hover {
 footer .list ul {
   background-color: #f5f5f5;
   display: flex;
+  flex-wrap: wrap;
   height: 60px;
   margin: 0;
   color: #000;
@@ -699,13 +700,11 @@ footer .copyright {
 
   footer .list ul {
     height: auto;
-    padding: 0;
   }
 
   footer .list li {
-    display: inline-block;
-    width: 40%;
-    text-align: left;
+    width: 50%;
+    padding: 8px 40px;
   }
 
   footer .list li:not(:last-child)::after {
